@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# k6 related files
+.k6/
+
+# Output of k6 run
+*.json
+*.html
+*.log
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# My notes
+notes.txt

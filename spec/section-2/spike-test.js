@@ -9,6 +9,13 @@ import { sleep } from 'k6';
  * spikes or drops in load. The provided code simulates a spike by quickly increasing 
  * the number of virtual users to 2000 and then ramping down to 0, allowing you to 
  * observe the system's behavior under varying levels of load.
+ * 
+ * 
+ * When to Run:
+ * 
+ * During marketing events or promotions.
+ * When expecting sudden increases in traffic.
+ * To assess how the system handles rapid load changes.
  */
 
 export const options = {

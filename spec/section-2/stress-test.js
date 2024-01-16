@@ -2,13 +2,22 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 /**
- * Concept of a Load Test:
+ * Concept of Stress Test:
  * 
- * A load test is a type of performance testing that involves 
- * evaluating how a system behaves under expected and peak load conditions. 
- * The goal is to assess the system's performance, scalability, and 
- * reliability by simulating a realistic number of concurrent users 
- * or transactions.
+ * A stress test is a performance testing method designed 
+ * to evaluate a system's robustness and stability under 
+ * extreme conditions or beyond its expected maximum capacity. 
+ * The primary goal is to identify how well the system can handle 
+ * increased load, assess its behavior under stress, and determine 
+ * whether it degrades gracefully or experiences failures.
+ * 
+ * 
+ * When to Run a Stress Test:
+ * 
+ * Stress tests are crucial after load testing to evaluate how well 
+ * a system handles increased load. Conduct stress testing before production 
+ * deployments, during peak usage periods, following infrastructure changes, 
+ * and in response to identified performance issues.
  */
 
 export const options = {

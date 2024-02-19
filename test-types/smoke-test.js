@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 /**
- * Concept of Smoke test:
+ * Concept of Smoke Test:
  * 
  * The concept of a "smoke test" typically refers to a quick and minimal test 
  * to ensure that the basic functionalities of an application or system are 

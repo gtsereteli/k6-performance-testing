@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 /**
- * Spike Test Concept:
+ * Concept of Spike Test:
  * 
  * A spike test is a type of performance testing that involves rapidly increasing or 
  * decreasing the number of virtual users to evaluate how the system handles sudden 
